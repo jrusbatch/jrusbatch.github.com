@@ -33,3 +33,21 @@ body {
 .social-googleplus {
   display: none;
 }
+
+.share {
+  padding: 20px 0 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.share li {
+  display: inline;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #eee;
+  color: #777;
+}
