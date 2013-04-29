@@ -16,6 +16,7 @@ author :
   email : 
   github : jrusbatch
   twitter : jrusbatch
+  googleplus : 104269480423791930531
   feedburner : 
 
 # The production_url is only used when full-domain names are needed
@@ -113,7 +114,21 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : all
+    twitter :
+      size :
+      via :
+      count :
+    facebook :
+      appid : 560604803959767
+      layout : button_count
+      font :
+      faces : false
+      width : 90
+    googleplus :
+      size : medium
+      width :
+      annotation : bubble
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:

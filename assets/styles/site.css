@@ -1,0 +1,35 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+.navbar .nav {
+  float: left;
+}
+
+.navbar .social {
+  padding: 0;
+  float: right;
+  margin: 0 10px 0 0;
+  list-style: none;
+}
+
+.navbar .social li {
+  float: left;
+  font-size: 20px;
+}
+
+.navbar .social a {
+  float: none;
+  color: #777;
+  display: block;
+  padding: 10px 5px 10px;
+}
+
+.navbar .social a:hover {
+  text-decoration: none;
+}
+
+.social-googleplus {
+  display: none;
+}

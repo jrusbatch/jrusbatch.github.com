@@ -1,0 +1,14 @@
+<ul class="social">
+  <li class="social-github">
+    <a href="https://github.com/{{ site.author.github }}" target="_blank"><i class="ss-icon ss-social-circle ss-octocat"></i></a>
+  </li>
+  <li class="social-twitter">
+    <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><i class="ss-icon ss-social-circle ss-twitter"></i></a>
+  </li>
+  <li class="social-googleplus">
+    <a href="https://plus.google.com/{{ site.author.googleplus }}?rel=author" target="_blank"><i class="ss-icon ss-social-circle ss-googleplus"></i></a>
+  </li>
+  <li class="social-rss">
+    <a href="{{ BASE_PATH }}{{ site.JB.rss_path }}" target="_blank"><i class="ss-icon ss-social-circle ss-rss"></i></a>
+  </li>
+</ul>
